@@ -5,7 +5,7 @@ using System.Security.Permissions;
 [assembly: SecurityPermission(SecurityAction.RequestMinimum, Execution = true)]
 [assembly: PermissionSet(SecurityAction.RequestOptional, Name = "Nothing")]
 [assembly: CLSCompliant(true)]
-namespace OhioState.Collections.Graph
+namespace CrawfisSoftware.Collections.Graph
 {
     /// <summary>
     /// IEdge provides a standard interface to specify an edge and any data associated

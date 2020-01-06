@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace OhioState.Collections.Graph
+namespace CrawfisSoftware.Collections.Graph
 {
     /// <summary>
     /// Graph interface for graphs with finite size.

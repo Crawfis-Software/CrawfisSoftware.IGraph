@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace OhioState.Collections.Graph
+namespace CrawfisSoftware.Collections.Graph
 {
     /// <summary>
     /// Interface used to allow the transpose of a directed graph.

@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace OhioState.Collections.Graph
+namespace CrawfisSoftware.Collections.Graph
 {
     /// <summary>
     /// IEdge provides a standard interface to specify an edge and any data associated
