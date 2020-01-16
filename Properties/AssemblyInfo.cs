@@ -8,9 +8,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("IGraph")]
 [assembly: AssemblyDescription("Interfaces for generic graphs")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("The Ohio State University")]
+[assembly: AssemblyCompany("Crawfis Software")]
 [assembly: AssemblyProduct("IGraph")]
-[assembly: AssemblyCopyright("Copyright © The Ohio State University 2008")]
+[assembly: AssemblyCopyright("Copyright © 2020")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
