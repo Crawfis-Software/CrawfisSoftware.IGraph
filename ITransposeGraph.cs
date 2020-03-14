@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace CrawfisSoftware.Collections.Graph
+﻿namespace CrawfisSoftware.Collections.Graph
 {
     /// <summary>
     /// Interface used to allow the transpose of a directed graph.
