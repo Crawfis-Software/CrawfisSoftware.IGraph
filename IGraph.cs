@@ -13,7 +13,7 @@ namespace CrawfisSoftware.Collections.Graph
     /// </summary>
     /// <typeparam name="N">The type of the nodes in the graph.</typeparam>
     /// <typeparam name="E">The type of the data on an edge.</typeparam>
-    public interface IEdge<N,E>
+    public interface IEdge<N, E>
     {
         /// <summary>
         /// Get the Node label that this edge emanates from.
@@ -33,7 +33,7 @@ namespace CrawfisSoftware.Collections.Graph
     /// </summary>
     /// <typeparam name="N">The type associated at each node. Called a node or node label</typeparam>
     /// <typeparam name="E">The type associated at each edge. Also called the edge label.</typeparam>   
-    public interface IGraph<N,E>
+    public interface IGraph<N, E>
     {
         /// <summary>
         /// Iterator for the nodes in the graoh.

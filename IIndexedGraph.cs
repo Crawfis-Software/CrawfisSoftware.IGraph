@@ -1,4 +1,3 @@
-using System;
 using System.Collections.Generic;
 
 namespace CrawfisSoftware.Collections.Graph
@@ -54,13 +53,13 @@ namespace CrawfisSoftware.Collections.Graph
         /// </summary>
         /// <param name="nodeIndex">The index of the node.</param>
         /// <returns>The label associated with the node.</returns>
-        N GetNodeLabel( int nodeIndex );
+        N GetNodeLabel(int nodeIndex);
         /// <summary>
         /// Iterator for the children or neighbors of the specified node.
         /// </summary>
         /// <param name="nodeIndex">The index of the node.</param>
         /// <returns>An enumerator of node indices.</returns>
-        IEnumerable<int> Neighbors( int nodeIndex );
+        IEnumerable<int> Neighbors(int nodeIndex);
         /// <summary>
         /// Iterator over the emanating edges from a node.
         /// </summary>
@@ -74,7 +73,7 @@ namespace CrawfisSoftware.Collections.Graph
         /// <remarks>May not be supported by all graphs.</remarks>
         /// <param name="nodeIndex">The index of the node.</param>
         /// <returns>An enumerator of node indices.</returns>
-        IEnumerable<int> Parents( int nodeIndex );
+        IEnumerable<int> Parents(int nodeIndex);
         /// <summary>
         /// Iterator over the in-coming edges of a node.
         /// </summary>
@@ -89,14 +88,14 @@ namespace CrawfisSoftware.Collections.Graph
         /// <param name="fromNode">Index of the node that the edge emanates from.</param>
         /// <param name="toNode">Index of the node that the edge terminates at.</param>
         /// <returns>True if the edge exists in the graph. False otherwise.</returns>
-        bool ContainsEdge( int fromNode, int toNode );
+        bool ContainsEdge(int fromNode, int toNode);
         /// <summary>
         /// Gets the label on an edge.
         /// </summary>
         /// <param name="fromNode">Index of the node that the edge emanates from.</param>
         /// <param name="toNode">Index of the node that the edge terminates at.</param>
         /// <returns>The label on the edge.</returns>
-        E GetEdgeLabel( int fromNode, int toNode );
+        E GetEdgeLabel(int fromNode, int toNode);
         /// <summary>
         /// Exception safe routine to get the label on an edge.
         /// </summary>
@@ -105,6 +104,6 @@ namespace CrawfisSoftware.Collections.Graph
         /// <param name="edge">The resulting edge label if the method was successful. A default
         /// value for the type if the edge could not be found.</param>
         /// <returns>True if the edge was found. False otherwise.</returns>
-        bool TryGetEdgeLabel( int fromNode, int toNode, out E edge );
+        bool TryGetEdgeLabel(int fromNode, int toNode, out E edge);
     }
 }
