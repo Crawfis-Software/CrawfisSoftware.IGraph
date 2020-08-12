@@ -2,8 +2,6 @@ using System;
 using System.Collections.Generic;
 using System.Security.Permissions;
 
-[assembly: SecurityPermission(SecurityAction.RequestMinimum, Execution = true)]
-[assembly: PermissionSet(SecurityAction.RequestOptional, Name = "Nothing")]
 [assembly: CLSCompliant(true)]
 namespace CrawfisSoftware.Collections.Graph
 {
