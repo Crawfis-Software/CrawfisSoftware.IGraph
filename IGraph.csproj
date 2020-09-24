@@ -52,6 +52,7 @@
     <Compile Include="IFiniteGraph.cs" />
     <Compile Include="IGraph.cs" />
     <Compile Include="IIndexedGraph.cs" />
+    <Compile Include="IndexedEdge.cs" />
     <Compile Include="ISortedGraph.cs" />
     <Compile Include="ITransposeGraph.cs" />
     <Compile Include="ITransposeIndexedGraph.cs" />
