@@ -5,6 +5,11 @@
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <DocumentationFile>bin\Debug\IGraph.XML</DocumentationFile>
+    <DocumentationFile>$(SolutionDir)\Documentation\IGraph.XML</DocumentationFile>
+    <OutputPath>$(SolutionDir)\bin\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>$(SolutionDir)bin\Release\</OutputPath>
+    <DocumentationFile>$(SolutionDir)Documentation\CrawfisSoftware.IGraph.xml</DocumentationFile>
   </PropertyGroup>
 </Project>
