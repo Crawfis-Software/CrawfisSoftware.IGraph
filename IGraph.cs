@@ -34,7 +34,7 @@ namespace CrawfisSoftware.Collections.Graph
     public interface IGraph<N, E>
     {
         /// <summary>
-        /// Iterator for the nodes in the graoh.
+        /// Iterator for the nodes in the graph.
         /// </summary>
         IEnumerable<N> Nodes { get; }
         /// <summary>
