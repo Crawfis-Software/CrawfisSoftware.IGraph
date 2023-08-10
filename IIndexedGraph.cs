@@ -41,7 +41,7 @@ namespace CrawfisSoftware.Collections.Graph
         /// </summary>
         int NumberOfNodes { get; }
         /// <summary>
-        /// Iterator for the node indices in the graoh.
+        /// Iterator for the node indices in the graph.
         /// </summary>
         IEnumerable<int> Nodes { get; }
         /// <summary>
