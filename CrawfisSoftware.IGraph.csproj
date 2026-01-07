@@ -1,15 +1,24 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>netstandard2.1</TargetFramework>
-    <OutputType>Library</OutputType>
-    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RepositoryUrl>https://github.com/Crawfis-Software/CrawfisSoftware.IGraph</RepositoryUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageIcon>icon.png</PackageIcon>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <Description>Standard library for CrawfisSoftware.IGraph.</Description>
+    <Company>Crawfis Software</Company>
+    <PackageProjectUrl>https://github.com/Crawfis-Software</PackageProjectUrl>
+    <Copyright>Copyright (c) Crawfis Software 2026</Copyright>
+    <Authors>Crawfis Software</Authors>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <LangVersion>10.0</LangVersion>
+    <RepositoryType>git</RepositoryType>
+    <PackageId>CrawfisSoftware.IGraph</PackageId>
+    <Nullable>enable</Nullable>
+    <TargetFrameworks>netstandard2.1;net8.0</TargetFrameworks>
   </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <DocumentationFile>$(SolutionDir)\Documentation\CrawfisSoftware.IGraph.xml</DocumentationFile>
-    <OutputPath>$(SolutionDir)\bin\Debug\</OutputPath>
-  </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
-    <OutputPath>$(SolutionDir)bin\Release\</OutputPath>
-    <DocumentationFile>$(SolutionDir)Documentation\CrawfisSoftware.IGraph.xml</DocumentationFile>
-  </PropertyGroup>
+  <ItemGroup>
+    <None Include="README.md" Pack="true" PackagePath="\" />
+    <None Include="icon.png" Pack="true" PackagePath="\" />
+  </ItemGroup>
 </Project>
