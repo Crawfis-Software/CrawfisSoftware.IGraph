@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <ImplicitUsings>enable</ImplicitUsings>
@@ -21,4 +22,20 @@
     <None Include="README.md" Pack="true" PackagePath="\" />
     <None Include="icon.png" Pack="true" PackagePath="\" />
   </ItemGroup>
+  <PropertyGroup>
+    <PackageId>CrawfisSoftware.IGraph</PackageId>
+    <Authors>Crawfis Software</Authors>
+    <Description>Main interface for much of the Procedural Content Generation algorithms in the CrawfisSoftware space. A minimal interface that does not impose constraints on implementations. Focused soley on the use of a graph and not the construction.</Description>
+    <RepositoryUrl>https://github.com/Crawfis-Software/CrawfisSoftware.IGraph</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageProjectUrl>https://github.com/Crawfis-Software/CrawfisSoftware.IGraph</PackageProjectUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageReleaseNotes>Please see CHANGELOG.md for release details.</PackageReleaseNotes>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <EmbedUntrackedSources>true</EmbedUntrackedSources>
+    <IsPackable>true</IsPackable>
+  </PropertyGroup>
 </Project>
